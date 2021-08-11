@@ -8,7 +8,7 @@
  *
  * @license MIT
  * @author  Valentin V (vvval)
- * @see     \Spiral\Migrations\Config\MigrationConfig
+ * @see     \Cycle\Migrations\Config\MigrationConfig
  */
 
 declare(strict_types=1);

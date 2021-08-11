@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Spiral\Tests\Scaffolder\App;
 
 use Spiral\Boot;
-use Spiral\Migrations;
+use Cycle\Migrations;
 use Spiral\Scaffolder;
 use Throwable;
 

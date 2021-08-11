@@ -12,7 +12,7 @@ declare(strict_types=1);
 
 namespace Spiral\Scaffolder\Declaration;
 
-use Spiral\Migrations\Migration;
+use Cycle\Migrations\Migration;
 use Spiral\Reactor\ClassDeclaration;
 use Spiral\Reactor\DependedInterface;
 

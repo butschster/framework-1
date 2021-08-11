@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Spiral\Command\Cycle;
 
-use Cycle\Migrations\GenerateMigrations;
+use Cycle\Schema\Generator\Migrations\GenerateMigrations;
 use Cycle\Schema\Compiler;
 use Cycle\Schema\Registry;
 use Spiral\Boot\MemoryInterface;
@@ -20,8 +20,8 @@ use Spiral\Command\Cycle\Generator\ShowChanges;
 use Spiral\Command\Migrate\AbstractCommand;
 use Spiral\Console\Console;
 use Spiral\Cycle\SchemaCompiler;
-use Spiral\Migrations\Migrator;
-use Spiral\Migrations\State;
+use Cycle\Migrations\Migrator;
+use Cycle\Migrations\State;
 use Symfony\Component\Console\Input\InputOption;
 
 final class MigrateCommand extends AbstractCommand

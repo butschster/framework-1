@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Spiral\Command\Migrate;
 
 use Spiral\Files\FilesInterface;
-use Spiral\Migrations\State;
+use Cycle\Migrations\State;
 
 /**
  * Show all available migrations and their statuses

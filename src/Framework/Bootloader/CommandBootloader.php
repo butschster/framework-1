@@ -29,7 +29,7 @@ use Spiral\Database\DatabaseProviderInterface;
 use Spiral\Encrypter\EncryptionInterface;
 use Spiral\Files\FilesInterface;
 use Spiral\GRPC\InvokerInterface;
-use Spiral\Migrations\Migrator;
+use Cycle\Migrations\Migrator;
 use Spiral\Router\RouterInterface;
 use Spiral\Translator\Config\TranslatorConfig;
 use Spiral\Translator\TranslatorInterface;

@@ -12,7 +12,7 @@ declare(strict_types=1);
 
 namespace Spiral\Scaffolder\Command;
 
-use Spiral\Migrations\Migrator;
+use Cycle\Migrations\Migrator;
 use Spiral\Reactor\FileDeclaration;
 use Spiral\Scaffolder\Declaration\MigrationDeclaration;
 use Spiral\Scaffolder\Exception\ScaffolderException;

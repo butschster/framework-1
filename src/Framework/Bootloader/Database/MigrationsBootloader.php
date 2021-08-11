@@ -16,9 +16,9 @@ use Spiral\Boot\DirectoriesInterface;
 use Spiral\Boot\EnvironmentInterface;
 use Spiral\Bootloader\TokenizerBootloader;
 use Spiral\Config\ConfiguratorInterface;
-use Spiral\Migrations\FileRepository;
-use Spiral\Migrations\Migrator;
-use Spiral\Migrations\RepositoryInterface;
+use Cycle\Migrations\FileRepository;
+use Cycle\Migrations\Migrator;
+use Cycle\Migrations\RepositoryInterface;
 
 final class MigrationsBootloader extends Bootloader
 {
